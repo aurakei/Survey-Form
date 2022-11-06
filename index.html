@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <h1 id="title">freeCodeCamp Survey Form </h1>
+<p id="description"> <i>Thank you for taking the time to help us improve the platform</i></p>
+<div>
+  <form id="survey-form">
+     <label id="name-label" required> name </label><br>
+    <input id="name" type="text" placeholder="enter your name">
+   
+    </input><br><br>
+     <label id="email-label"> email </label><br>
+    <input id="email" type="email" placeholder="enter your email" required>
+    </input><br><br>
+
+<label id="number-label"> Age </label><br>
+    <input id="number" type="number" placeholder="enter your age" min="10" max="100"><br>
+    </input>
+    <p>Which option best describes your current role?</p>
+    <select id="dropdown">
+      <option>student</option>
+      <option>full time</option>
+    </select><br>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <input type="radio" value="yes" name="yes">yes
+    </input>
+    <input type="radio" value="no" name="no">no
+    </input><br>
+
+    <p>What is your favorite feature of freeCodeCamp?</p>
+
+    <input type="checkbox" value="Front-end Projects">Front-end Projects</input>
+     <input type="checkbox" value="Back-end Projects">Back-end Projects</input><br>
+     <p>Any comments or suggestions?</p>
+     <textarea></textarea><br><br>
+     <input value="submit" type="submit" id="submit"></submit>
+  </form>
+</div>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
